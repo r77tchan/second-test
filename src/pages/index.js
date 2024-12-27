@@ -1,7 +1,7 @@
 // pages/index.js
 import Link from 'next/link'
 import styles from '@/styles/Home.module.css'
-import Post from './Post'
+import Post from './post'
 
 export async function getStaticProps() {
   // ダミーのブログデータを取得（実際にはAPIやデータベースから取得）
